@@ -31,6 +31,9 @@ SandBox_Ubuntu_20.04_LTS_Desktop  ansible_host=10.0.59.36        ansible_user=to
 AWS_Ubuntu_Instance               ansible_host=tony-devops.cf    ansible_user=ubuntu
 ORACLE_Ubuntu_Instance            ansible_host=193.123.57.243    ansible_user=ubuntu
 
+[home_hosts]
+Ubuntu_20.04_LTS_Desktop          ansible_host=192.138.0.81      ansible_user=tony
+
 # If you have multiple hosts following a pattern you can specify
 # them like this:
 
